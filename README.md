@@ -1,16 +1,3 @@
-<head>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$','$']]
-            }
-        });
-    </script>
-</head>
-
-
 # TCR-HLA-peptide binding
 
 - [TCR-HLA-peptide binding](#tcr-hla-peptide-binding)
@@ -25,7 +12,9 @@
 |<img src="imgs/hla-pep.jpg">|<img src="imgs/tcr-hla-pep.png">|
 |[Image source](https://microbiologynotes.org/major-histocompatibility-complex-mhc-introduction-types-and-differences/)|[Image source](https://www.researchgate.net/figure/MHC-class-I-and-class-II-and-their-role-as-mediators-during-antigen-presentation-and_fig1_280663544)|
 - [ ] [Structure of the complex between human T-cell receptor, viral peptide and HLA-A2](http://www.nature.com/articles/384134a0) (1996 Nature)
-  - "The interface between TCR and MHC/pcptide is in unambiguous electron density, as are the **$\pmb{\alpha}$2, $\pmb{\alpha}$2, and $\pmb{\beta}$2-microglobulin ($\pmb{\beta}$2m) domains of the MHC** and the **V$\pmb{\alpha}$ and V$\pmb{\beta}$ domains of the TCR**."
+  - "The interface between TCR and MHC/pcptide is in unambiguous electron density, as are 
+  - the $\alpha$ 1, $\alpha$ 2, and $\beta$ 2-microglobulin ($\beta$ 2m) domains of the MHC 
+  - and the V $\alpha$ and V $\beta$ domains of the TCR."
 - [ ] [Classification of Human Leukocyte Antigen (HLA) Supertypes](http://link.springer.com/10.1007/978-1-4939-1115-8_17) (2014 Immunoinformatics)
 
 
@@ -37,7 +26,7 @@
   - Methods mentioned in the paper are summarized in their [Reading List](https://github.com/LirongWu/awesome-protein-representation-learning).
 
 ---
-<img src="imgs/protein-structure_cut.png" title="Protein structure level">
+<img src="imgs/protein-structure_cut.png" title="Protein structure level" width=80%>
 
 
 ## Sequence (primary structure)
@@ -47,7 +36,7 @@
   - HLA: pseudo sequence 
 - [ ] [Deep learning-based prediction of the T cell receptor–antigen binding specificity](https://www.nature.com/articles/s42256-021-00383-2 "pMTnet") (2021 NMI)
   - HLA: pseudo sequence 
-  - TCR: CDR3$\beta$ sequence
+  - TCR: CDR 3 $\beta$ sequence
 - [ ] [A transformer-based model to predict peptide–HLA class I binding and optimize mutated peptides for vaccine design](https://www.nature.com/articles/s42256-022-00459-7 "TransPHLA") (2022 NMI)
   - HLA: pseudo sequence
 
