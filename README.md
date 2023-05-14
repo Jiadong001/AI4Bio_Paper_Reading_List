@@ -47,7 +47,18 @@ This paper is a review of current methods and tools for predicting the binding o
 
 ## TCR-HLA-peptide interaction
 
-- [ ] **[Deep learning-based prediction of the T cell receptor–antigen binding specificity](https://www.nature.com/articles/s42256-021-00383-2)**
+Although a TCR binds to an epitope and the corresponding MHC molecule partner simultaneously, the core binding regions of the complex are between the **complementarity determining region 3 of the TCR β chain (CDR3β) and the epitope**
+
+- [ ] **[Current challenges for unseen-epitope TCR interaction prediction and a new perspective derived from image classification](https://academic.oup.com/bib/article/22/4/bbaa318/6042663)**
+  - **Unseen epitope**
+
+- [ ] **[Contribution of T Cell Receptor Alpha and Beta CDR3, MHC Typing, V and J Genes to Peptide Binding Prediction](https://www.frontiersin.org/articles/10.3389/fimmu.2021.664514/full)**
+
+- [ ] **[[pMTnet] Deep learning-based prediction of the T cell receptor–antigen binding specificity](https://www.nature.com/articles/s42256-021-00383-2)**
+  - The online tool is available at https://dbai.biohpc.swmed.edu/pmtnet/index.php
+    - (**Highlights**) The **subsequent** pMTnet version 
+
+- [ ] **[Detection of Enriched T Cell Epitope Specificity in Full T Cell Receptor Sequence Repertoires](https://www.frontiersin.org/articles/10.3389/fimmu.2019.02820/full)**
 - [ ] **[Pan-Peptide Meta Learning for T-cell receptor–antigen binding recognition](https://www.nature.com/articles/s42256-023-00619-3)**
 - [ ] **[Characterizing the interaction conformation between T-cell receptors and epitopes with deep learning](https://www.nature.com/articles/s42256-023-00634-4)**
 
@@ -58,7 +69,7 @@ This paper is a review of current methods and tools for predicting the binding o
 - [ ] **[[Survey] A Survey on Protein Representation Learning: Retrospect and Prospect](http://arxiv.org/abs/2301.00813) (2023 arxiv)**
   - sequence-based, structure-based, and sequence-structure co-modeling
   - Methods mentioned in the paper are summarized in their [Reading List](https://github.com/LirongWu/awesome-protein-representation-learning).
-- [ ] 
+- [ ] **[[Survey] PEER: A Comprehensive and Multi-Task Benchmark for Protein Sequence Understanding](https://arxiv.org/abs/2206.02096)**
 
 ---
 <img src="imgs/protein-structure_cut.png" title="Protein structure level" width=80%>
