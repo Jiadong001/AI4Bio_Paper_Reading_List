@@ -14,12 +14,12 @@ Understanding the TCR-peptide-HLA interaction has significant implications in im
 |HLA-pep binding|TCR-HLA-pep binding|
 |:-:|:-:|
 |<img src="imgs/hla-pep.jpg">|<img src="imgs/tcr-hla-pep.png">|
-|[Image source](https://microbiologynotes.org/major-histocompatibility-complex-mhc-introduction-types-and-differences/)|[Image source](https://www.researchgate.net/figure/MHC-class-I-and-class-II-and-their-role-as-mediators-during-antigen-presentation-and_fig1_280663544)|
+<!-- |[Image source](https://microbiologynotes.org/major-histocompatibility-complex-mhc-introduction-types-and-differences/)|[Image source](https://www.researchgate.net/figure/MHC-class-I-and-class-II-and-their-role-as-mediators-during-antigen-presentation-and_fig1_280663544)| -->
 - [ ] **[Structure of the complex between human T-cell receptor, viral peptide and HLA-A2](http://www.nature.com/articles/384134a0) (1996 Nature)**
   - "The interface between TCR and MHC/pcptide is in unambiguous electron density, as are 
   - the $\alpha$ 1, $\alpha$ 2, and $\beta$ 2-microglobulin ($\beta$ 2m) domains of the MHC 
   - and the V $\alpha$ and V $\beta$ domains of the TCR."
-- [ ] [**Classification of Human Leukocyte Antigen (HLA) Supertypes**](http://link.springer.com/10.1007/978-1-4939-1115-8_17) (2014 Immunoinformatics)
+- [ ] **[Classification of Human Leukocyte Antigen (HLA) Supertypes](http://link.springer.com/10.1007/978-1-4939-1115-8_17) (2014 Immunoinformatics)**
 - [ ] **[Predicting Antigen Presentationwhat Could we Learn From a Million Peptides?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6068240/)**
 
 ## HLA-Peptide Interaction
@@ -31,13 +31,10 @@ Understanding the TCR-peptide-HLA interaction has significant implications in im
 This paper is a review of current methods and tools for predicting the binding of short antigenic peptides to major histocompatibility complex (MHC) molecules. The precise identification of MHC-restricted peptides is important for understanding the mechanism of immune response and discovering immunogenic epitopes. However, due to the high polymorphism of MHC molecules and the cost of biochemical experiments, computational approaches have become increasingly important for predicting peptide binding. Pan-specific methods, which use experimentally obtained binding data of multiple alleles, have received keen interest in recent years. This article extensively reviews existing pan-specific methods and their web servers, presenting a general framework for these methods. Additionally, we provide a brief overview of comparative studies on the performance of different prediction methods using several independent data sets.
 
 ### Traditional methods
-
-- [ ] **[NetMHCpan, a Method for Quantitative Predictions of Peptide Binding to Any HLA-A and -B Locus Protein of Known Sequence](https://dx.plos.org/10.1371/journal.pone.0000796)** (2007)
-  - HLA: pseudo sequence 
-- [ ] [**NetMHCpan-4.0: Improved Peptide–MHC Class I Interaction Predictions Integrating Eluted Ligand and Peptide Binding Affinity Data**](https://journals.aai.org/jimmunol/article/199/9/3360/109797/NetMHCpan-4-0-Improved-Peptide-MHC-Class-I) (2017)
-  - HLA: pseudo sequence 
-- [ ] [**A transformer-based model to predict peptide–HLA class I binding and optimize mutated peptides for vaccine design**](https://www.nature.com/articles/s42256-022-00459-7 "TransPHLA") (2022 NMI)
-  - HLA: pseudo sequence
+Pseudo sequence is always used to represent HLA in Pan-specific methods.
+- [ ] **[NetMHCpan, a Method for Quantitative Predictions of Peptide Binding to Any HLA-A and -B Locus Protein of Known Sequence](https://dx.plos.org/10.1371/journal.pone.0000796) (2007)**
+- [ ] **[NetMHCpan-4.0: Improved Peptide–MHC Class I Interaction Predictions Integrating Eluted Ligand and Peptide Binding Affinity Data](https://journals.aai.org/jimmunol/article/199/9/3360/109797/NetMHCpan-4-0-Improved-Peptide-MHC-Class-I) (2017)**
+- [ ] **[[TransPHLA] A transformer-based model to predict peptide–HLA class I binding and optimize mutated peptides for vaccine design](https://www.nature.com/articles/s42256-022-00459-7) (2022 NMI)**
 
 ### Pre-trained language model-based methods
 
@@ -76,9 +73,13 @@ Although a TCR binds to an epitope and the corresponding MHC molecule partner si
 
 ## Towards structure-based methods
 
-- [ ] **[Structure-based prediction of T cell receptor: peptide-MHC interactions](https://elifesciences.org/articles/82813)**
+- [ ] **[[AlphaFold2] Highly accurate protein structure prediction with AlphaFold](https://www.nature.com/articles/s41586-021-03819-2)**
+- [ ] **[[ESMFold] Evolutionary-scale prediction of atomic-level protein structure with a language model](https://www.science.org/doi/10.1126/science.ade2574)**
+- [ ] **[[Survey] Protein Language Models and Structure Prediction: Connection and Progression](https://arxiv.org/abs/2211.16742)**
 
-  
+Fine-tune AlphaFold2 (Philip Bradley & David Baker):
+- [ ] **[Structure-based prediction of T cell receptor: peptide-MHC interactions](https://elifesciences.org/articles/82813)**
+- [ ] **[Peptide-binding specificity prediction using fine-tuned protein structure prediction networks](https://www.pnas.org/doi/10.1073/pnas.2216697120)**
 
 ## General protein-ligand interaction
 
