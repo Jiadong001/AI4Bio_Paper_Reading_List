@@ -1,14 +1,16 @@
-# Protein domain
-<img src="https://img.shields.io/badge/Protein-TCR_HLA_peptide-red.svg?logo=LOGO">
-<img src="https://img.shields.io/badge/Protein-Sequence_Design-red.svg?logo=LOGO">
-<img src="https://img.shields.io/badge/Protein-Structure_Prediction-red.svg?logo=LOGO">
-<img src="https://img.shields.io/badge/AI-Language_Model-green.svg?logo=LOGO">
-<img src="https://img.shields.io/badge/AI-AlphaFold-green.svg?logo=LOGO">
+# AI for protein domain
 
+**Table of Content**
+- [TCR-HLA-peptide Binding Prediction](#1-tcr-hla-peptide-binding-prediction)
+- [Protein (Pre-trained) Language Models](#2-protein-pre-trained-language-models)
+- [Structure Prediction](#3-structure-prediction)
+- [Sequence Design](#4-sequence-design)
+- [General Protein Ligand Interaction](#5-general-protein-ligand-interaction)
+- [Docking](#6-docking)
 
 ## 1. TCR-HLA-peptide Binding Prediction
 
-### Intros
+### 1.1. Intros
 
 **T-cell receptor (TCR), peptide, and human leukocyte antigen (HLA) interactions** play a crucial role in the adaptive immune response, orchestrating the recognition and targeting of foreign substances, such as pathogens or cancer cells. 
 
@@ -26,7 +28,7 @@
 </details>
 
 
-### Biological domain knowledge
+### 1.2. Biological domain knowledge
 |HLA-pep binding|TCR-HLA-pep binding|
 |:-:|:-:|
 |<img src="imgs/hla-pep.jpg">|<img src="imgs/tcr-hla-pep.png">|
@@ -44,7 +46,7 @@
 - [ ] **[Predicting Antigen Presentationwhat Could we Learn From a Million Peptides?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6068240/)**
 
 
-### HLA-Peptide interaction
+### 1.3. HLA-Peptide interaction
 
 #### Surveys
 
@@ -73,7 +75,7 @@ Pseudo sequence is always used to represent HLA in Pan-specific methods.
 - [ ] **[Improved Predictions of MHC-Peptide Binding using Protein Language Models](https://www.biorxiv.org/content/10.1101/2022.02.11.479844v1)**
 
 
-### TCR-HLA-peptide interaction
+### 1.4. TCR-HLA-peptide interaction
 
 Although a TCR binds to an epitope and the corresponding MHC molecule partner simultaneously, the core binding regions of the complex are between the **complementarity determining region 3 of the TCR β chain (CDR3β) and the epitope**.
 
@@ -95,17 +97,17 @@ Although a TCR binds to an epitope and the corresponding MHC molecule partner si
 Potential data resources:
 - [ ] **[Facile repurposing of peptide–MHC-restricted antibodies for cancer immunotherapy](https://www.nature.com/articles/s41587-022-01567-w) (2023 NBT)**
 
-### Towards structure-based methods
+### 1.5. Towards structure-based methods
 Fine-tune AlphaFold2 (Philip Bradley & David Baker):
-- [ ] **[Peptide-binding specificity prediction using fine-tuned protein structure prediction networks](https://www.pnas.org/doi/10.1073/pnas.2216697120) (2023)**
+- [ ] **[Peptide-binding specificity prediction using fine-tuned protein structure prediction networks](https://www.pnas.org/doi/10.1073/pnas.2216697120) (2023 PNAS)**
 - [ ] **[Structure-based prediction of T cell receptor: peptide-MHC interactions](https://elifesciences.org/articles/82813) (2023)**
 
 
 ## 2. Protein (Pre-trained) Language Models
 
-Amino acid sequence -- protein language
+Amino acid sequence: protein language
 
-### Surveys
+### 2.1. Surveys
 - [ ] **[Learning functional properties of proteins with language models](https://www.nature.com/articles/s42256-022-00457-9) (2022 NMI)**
   - sequence-based
 - [ ] **[PEER: A Comprehensive and Multi-Task Benchmark for Protein Sequence Understanding](https://arxiv.org/abs/2206.02096) (2022 NIPS)**
@@ -114,20 +116,24 @@ Amino acid sequence -- protein language
   - Methods mentioned in the paper are summarized in their [awesome-protein-representation-learning](https://github.com/LirongWu/awesome-protein-representation-learning).
 
 
-### Representative models
+### 2.2. Representative models
 
 BERT-based:
 - [ ] **[Evaluating Protein Transfer Learning with TAPE](http://biorxiv.org/lookup/doi/10.1101/676825) (2019 NIPS)**
 - [ ] **[[ESM-1b] Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences](https://www.pnas.org/doi/full/10.1073/pnas.2016239118) (2020 PNAS)**
+- [ ] **[ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning](https://ieeexplore.ieee.org/document/9477085) (2021 TPAMI)**
 - [ ] **[MSA Transformer](https://www.biorxiv.org/content/10.1101/2021.02.12.430858v1) (2021 bioRxiv)**
-  - https://zhuanlan.zhihu.com/p/359280937
+  - Related introduction: [ZhiHu](https://zhuanlan.zhihu.com/p/359280937)
 
+GPT-based:
+- [ ] **[Large language models generate functional protein sequences across diverse families](https://www.nature.com/articles/s41587-022-01618-2) (2022 NBT)**
+- [ ] **[ProtGPT2 is a deep unsupervised language model for protein design](https://www.nature.com/articles/s41467-022-32007-7) (2022 NC)**
 
 GLM-based:
 - [ ] **[xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein](https://www.biorxiv.org/content/10.1101/2023.07.05.547496v1) (2023 | Baidu BioMap)**
 
 
-### Applications
+### 2.3. Applications
 - [ ] **[Efficient evolution of human antibodies from general protein language models](https://www.nature.com/articles/s41587-023-01763-2) (2023 NBT)**
 
 
@@ -135,13 +141,14 @@ GLM-based:
 
 <img src="imgs/protein-structure_cut.png" title="Protein structure level" width=80%>
 
-### Surveys
+### 3.1. Surveys
 - [ ] **[Protein Language Models and Structure Prediction: Connection and Progression](https://arxiv.org/abs/2211.16742)**
 
 
-### State-of-the-art methods
+### 3.2. State-of-the-art methods
 - [ ] **[[AlphaFold2] Highly accurate protein structure prediction with AlphaFold](https://www.nature.com/articles/s41586-021-03819-2) (2021 Nature)**
 - [ ] **[[ESMFold] Evolutionary-scale prediction of atomic-level protein structure with a language model](https://www.science.org/doi/10.1126/science.ade2574) (2023 Science)**
+- [ ] **[De novo design of protein structure and function with RFdiffusion](https://www.nature.com/articles/s41586-023-06415-8) (2023 Nature)**
 
 
 ## 4. Sequence Design
@@ -150,19 +157,35 @@ GLM-based:
 - [ ] **[[LM-Design] Structure-informed Language Models Are Protein Designers](http://biorxiv.org/lookup/doi/10.1101/2023.02.03.526917)**
 
 
-https://mp.weixin.qq.com/s/KfAdtdo9Rs4PP-DHlCO7aA
+Related Topic Reading: [New Paradigm in Protein Design](https://mp.weixin.qq.com/s/KfAdtdo9Rs4PP-DHlCO7aA)
 
 
 ## 5. General protein-ligand interaction
 
-### Sequence-based
+### 5.1. Sequence-based
 - [ ] **[MGPLI: exploring multigranular representations for protein–ligand interaction prediction](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac597/6696233) (2022 Bioinformatics)**
 
 
-### Structure-based
+### 5.2. Structure-based
 
+
+## 6. Docking
+
+- [ ] **[DIFFDOCK-PP: RIGID PROTEIN-PROTEIN DOCKING WITH DIFFUSION MODELS](https://arxiv.org/abs/2304.03889) (2023 arxiv)**
+
+> **Related paper-reading lists:**
+     1. [awesome-protein-representation-learning](https://github.com/LirongWu/awesome-protein-representation-learning)
+     2. [awesome-AI-based-protein-design](https://github.com/opendilab/awesome-AI-based-protein-design)
+     3. [papers_for_protein_design_using_DL](https://github.com/Peldom/papers_for_protein_design_using_DL)
+     4. [Awesome protein structure prediction (PSP) methods](https://github.com/bozhenhhu/A-Review-of-pLMs-and-Methods-for-Protein-Structure-Prediction)
+     5. [Awesome List Protein Binding-Site Prediction](https://github.com/pengzhangzhi/Awesome-List-Protein-Binding-Site-Prediction-)
+
+> **AI weapons:**
+     1. [Adversarial Attacks on Deep-learning Models in Natural Language Processing: A Survey](https://dl.acm.org/doi/10.1145/3374217) (2020)
+     2. [A Survey on Graph Diffusion Models: Generative AI in Science for Molecule, Protein and Material](https://arxiv.org/abs/2304.01565) (2023)
 
 ---
-# Other domains
+# AI for other domains
 - [ ] **[[Geneformer] Transfer learning enables predictions in network biology](https://www.nature.com/articles/s41586-023-06139-9) (2023 Nature)**
 - [ ] **[CancerGPT: Few-shot Drug Pair Synergy Prediction using Large Pre-trained Language Models](http://arxiv.org/abs/2304.10946) (2023 arxiv)**
+
