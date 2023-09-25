@@ -1,3 +1,15 @@
+Format of the list:
+- [ ] Previous Updates
+- [x] Latest Updates
+
+Latest update date: 2023-09-25
+
+<!-- ---
+Overview of AI4Science in 2023:
+- A brief: [Scientific discovery in the age of artificial intelligence](https://www.nature.com/articles/s41586-023-06221-2)
+- A detailed: [Artificial Intelligence for Science in Quantum, Atomistic, and Continuum Systems](https://arxiv.org/abs/2307.08423) -->
+
+---
 # AI for protein domain
 
 **Table of Content**
@@ -83,16 +95,17 @@ Although a TCR binds to an epitope and the corresponding MHC molecule partner si
   - **Unseen epitope**
 
 - [ ] **[Contribution of T Cell Receptor Alpha and Beta CDR3, MHC Typing, V and J Genes to Peptide Binding Prediction](https://www.frontiersin.org/articles/10.3389/fimmu.2021.664514/full)**
-
+- [ ] **[[TCRex] Detection of Enriched T Cell Epitope Specificity in Full T Cell Receptor Sequence Repertoires](https://www.frontiersin.org/articles/10.3389/fimmu.2019.02820/full)**
 - [ ] **[[pMTnet] Deep learning-based prediction of the T cell receptor–antigen binding specificity](https://www.nature.com/articles/s42256-021-00383-2)**
   - The online tool is available at https://dbai.biohpc.swmed.edu/pmtnet/index.php
-    - (**Highlights**) The **subsequent** pMTnet version 
-
-- [ ] **[Detection of Enriched T Cell Epitope Specificity in Full T Cell Receptor Sequence Repertoires](https://www.frontiersin.org/articles/10.3389/fimmu.2019.02820/full)**
-- [ ] **[Pan-Peptide Meta Learning for T-cell receptor–antigen binding recognition](https://www.nature.com/articles/s42256-023-00619-3)**
-- [ ] **[Characterizing the interaction conformation between T-cell receptors and epitopes with deep learning](https://www.nature.com/articles/s42256-023-00634-4)**
-- [ ] **[DeepTCR is a deep learning framework for revealing sequence concepts within T-cell repertoires](https://www.nature.com/articles/s42256-023-00634-4)**
+  - (**Highlights**) The **subsequent** pMTnet version: [Github document](https://github.com/Yuqiu-Yang/pMTnet_Omni_Document)
+- [ ] **[DeepTCR is a deep learning framework for revealing sequence concepts within T-cell repertoires](https://www.nature.com/articles/s41467-021-21879-w)**
   - Follow-up work: **[Deep learning reveals predictive sequence concepts within immune repertoires to immunotherapy](https://www.science.org/doi/10.1126/sciadv.abq5089)**
+- [x] **[[TCRAI-ICON] A framework for highly multiplexed dextramer mapping and prediction of T cell receptor sequences to antigen specificity](https://www.science.org/doi/10.1126/sciadv.abf5835) (2021 Science Advanced)**
+- [ ] **[[Pan-Pep] Pan-Peptide Meta Learning for T-cell receptor–antigen binding recognition](https://www.nature.com/articles/s42256-023-00619-3)**
+- [ ] **[[TEIM] Characterizing the interaction conformation between T-cell receptors and epitopes with deep learning](https://www.nature.com/articles/s42256-023-00634-4)**
+- [x] **[Benchmarking solutions to the T-cell receptor epitope prediction problem: IMMREP22 workshop report](https://www.sciencedirect.com/science/article/pii/S2667119023000046) (2023 ImmunoInformatics)**
+- [x] **[Can we predict T cell specificity with digital biology and machine learning?](https://www.nature.com/articles/s41577-023-00835-3) (2023 Nature reviews)**
 
 Potential data resources:
 - [ ] **[Facile repurposing of peptide–MHC-restricted antibodies for cancer immunotherapy](https://www.nature.com/articles/s41587-022-01567-w) (2023 NBT)**
@@ -149,12 +162,14 @@ GLM-based:
 - [ ] **[[AlphaFold2] Highly accurate protein structure prediction with AlphaFold](https://www.nature.com/articles/s41586-021-03819-2) (2021 Nature)**
 - [ ] **[[ESMFold] Evolutionary-scale prediction of atomic-level protein structure with a language model](https://www.science.org/doi/10.1126/science.ade2574) (2023 Science)**
 - [ ] **[De novo design of protein structure and function with RFdiffusion](https://www.nature.com/articles/s41586-023-06415-8) (2023 Nature)**
+- [x] **[ColabFold: making protein folding accessible to all](https://www.nature.com/articles/s41592-022-01488-1) (2022 Nature)**
 
 
 ## 4. Sequence Design
 
-- [ ] **[Robust deep learning–based protein sequence design using ProteinMPNN](http://biorxiv.org/lookup/doi/10.1101/2023.02.03.526917)**
-- [ ] **[[LM-Design] Structure-informed Language Models Are Protein Designers](http://biorxiv.org/lookup/doi/10.1101/2023.02.03.526917)**
+- [ ] **[Robust deep learning–based protein sequence design using ProteinMPNN](https://www.science.org/doi/10.1126/science.add2187)**
+- [ ] **[[LM-Design] Structure-informed Language Models Are Protein Designers](http://biorxiv.org/lookup/doi/10.1101/2023.02.03.526917)  (2023 ICML)**
+- [x] **[[EvoDiff] Protein generation with evolutionary diffusion: sequence is all you need](http://biorxiv.org/lookup/doi/10.1101/2023.09.11.556673) (2023 Bioaxiv)**
 
 
 Related Topic Reading: [New Paradigm in Protein Design](https://mp.weixin.qq.com/s/KfAdtdo9Rs4PP-DHlCO7aA)
@@ -174,15 +189,15 @@ Related Topic Reading: [New Paradigm in Protein Design](https://mp.weixin.qq.com
 - [ ] **[DIFFDOCK-PP: RIGID PROTEIN-PROTEIN DOCKING WITH DIFFUSION MODELS](https://arxiv.org/abs/2304.03889) (2023 arxiv)**
 
 > **Related paper-reading lists:**
-     1. [awesome-protein-representation-learning](https://github.com/LirongWu/awesome-protein-representation-learning)
-     2. [awesome-AI-based-protein-design](https://github.com/opendilab/awesome-AI-based-protein-design)
-     3. [papers_for_protein_design_using_DL](https://github.com/Peldom/papers_for_protein_design_using_DL)
-     4. [Awesome protein structure prediction (PSP) methods](https://github.com/bozhenhhu/A-Review-of-pLMs-and-Methods-for-Protein-Structure-Prediction)
-     5. [Awesome List Protein Binding-Site Prediction](https://github.com/pengzhangzhi/Awesome-List-Protein-Binding-Site-Prediction-)
+> 1. [awesome-protein-representation-learning](https://github.com/LirongWu/awesome-protein-representation-learning)
+> 2. [awesome-AI-based-protein-design](https://github.com/opendilab/awesome-AI-based-protein-design)
+> 3. [papers_for_protein_design_using_DL](https://github.com/Peldom/papers_for_protein_design_using_DL)
+> 4. [Awesome protein structure prediction (PSP) methods](https://github.com/bozhenhhu/A-Review-of-pLMs-and-Methods-for-Protein-Structure-Prediction)
+> 5. [Awesome List Protein Binding-Site Prediction](https://github.com/pengzhangzhi/Awesome-List-Protein-Binding-Site-Prediction-)
 
 > **AI weapons:**
-     1. [Adversarial Attacks on Deep-learning Models in Natural Language Processing: A Survey](https://dl.acm.org/doi/10.1145/3374217) (2020)
-     2. [A Survey on Graph Diffusion Models: Generative AI in Science for Molecule, Protein and Material](https://arxiv.org/abs/2304.01565) (2023)
+> 1. [Adversarial Attacks on Deep-learning Models in Natural Language Processing: A Survey](https://dl.acm.org/doi/10.1145/3374217) (2020)
+> 2. [A Survey on Graph Diffusion Models: Generative AI in Science for Molecule, Protein and Material](https://arxiv.org/abs/2304.01565) (2023)
 
 ---
 # AI for other domains
