@@ -1,13 +1,13 @@
-Format of the list:
-- [ ] Previous Updates
-- [x] Latest Updates
-
-Latest update date: 2023-09-25
-
 <!-- ---
 Overview of AI4Science in 2023:
 - A brief: [Scientific discovery in the age of artificial intelligence](https://www.nature.com/articles/s41586-023-06221-2)
 - A detailed: [Artificial Intelligence for Science in Quantum, Atomistic, and Continuum Systems](https://arxiv.org/abs/2307.08423) -->
+
+Format of the list below:
+- [ ] Previous Updates
+- [x] Latest Updates
+
+Latest update date: 2024-03-31
 
 ---
 # AI for protein domain
@@ -91,21 +91,20 @@ Pseudo sequence is always used to represent HLA in Pan-specific methods.
 
 Although a TCR binds to an epitope and the corresponding MHC molecule partner simultaneously, the core binding regions of the complex are between the **complementarity determining region 3 of the TCR β chain (CDR3β) and the epitope**.
 
-- [ ] **[Current challenges for unseen-epitope TCR interaction prediction and a new perspective derived from image classification](https://academic.oup.com/bib/article/22/4/bbaa318/6042663)**
+- [ ] **[[ImRex] Current challenges for unseen-epitope TCR interaction prediction and a new perspective derived from image classification](https://academic.oup.com/bib/article/22/4/bbaa318/6042663)**
   - **Unseen epitope**
-
-- [ ] **[Contribution of T Cell Receptor Alpha and Beta CDR3, MHC Typing, V and J Genes to Peptide Binding Prediction](https://www.frontiersin.org/articles/10.3389/fimmu.2021.664514/full)**
 - [ ] **[[TCRex] Detection of Enriched T Cell Epitope Specificity in Full T Cell Receptor Sequence Repertoires](https://www.frontiersin.org/articles/10.3389/fimmu.2019.02820/full)**
-- [ ] **[[pMTnet] Deep learning-based prediction of the T cell receptor–antigen binding specificity](https://www.nature.com/articles/s42256-021-00383-2)**
-  - The online tool is available at https://dbai.biohpc.swmed.edu/pmtnet/index.php
-  - (**Highlights**) The **subsequent** pMTnet version: [Github document](https://github.com/Yuqiu-Yang/pMTnet_Omni_Document)
 - [ ] **[DeepTCR is a deep learning framework for revealing sequence concepts within T-cell repertoires](https://www.nature.com/articles/s41467-021-21879-w)**
   - Follow-up work: **[Deep learning reveals predictive sequence concepts within immune repertoires to immunotherapy](https://www.science.org/doi/10.1126/sciadv.abq5089)**
-- [x] **[[TCRAI-ICON] A framework for highly multiplexed dextramer mapping and prediction of T cell receptor sequences to antigen specificity](https://www.science.org/doi/10.1126/sciadv.abf5835) (2021 Science Advanced)**
-- [ ] **[[Pan-Pep] Pan-Peptide Meta Learning for T-cell receptor–antigen binding recognition](https://www.nature.com/articles/s42256-023-00619-3)**
-- [ ] **[[TEIM] Characterizing the interaction conformation between T-cell receptors and epitopes with deep learning](https://www.nature.com/articles/s42256-023-00634-4)**
-- [x] **[Benchmarking solutions to the T-cell receptor epitope prediction problem: IMMREP22 workshop report](https://www.sciencedirect.com/science/article/pii/S2667119023000046) (2023 ImmunoInformatics)**
-- [x] **[Can we predict T cell specificity with digital biology and machine learning?](https://www.nature.com/articles/s41577-023-00835-3) (2023 Nature reviews)**
+- [ ] **[[ERGO-II] Contribution of T Cell Receptor Alpha and Beta CDR3, MHC Typing, V and J Genes to Peptide Binding Prediction](https://www.frontiersin.org/articles/10.3389/fimmu.2021.664514/full)**
+- [ ] **[[TCRAI-ICON] A framework for highly multiplexed dextramer mapping and prediction of T cell receptor sequences to antigen specificity](https://www.science.org/doi/10.1126/sciadv.abf5835) (2021 Science Advanced)**
+- [ ] **[[pMTnet] Deep learning-based prediction of the T cell receptor–antigen binding specificity](https://www.nature.com/articles/s42256-021-00383-2) (2021 NMI)**
+  - The online tool is available at https://dbai.biohpc.swmed.edu/pmtnet/index.php
+  - (**Highlights**) The **subsequent** pMTnet version: [Github document](https://github.com/Yuqiu-Yang/pMTnet_Omni_Document)
+- [ ] **[[Pan-Pep] Pan-Peptide Meta Learning for T-cell receptor–antigen binding recognition](https://www.nature.com/articles/s42256-023-00619-3) (2023 NMI)**
+- [ ] **[[TEIM] Characterizing the interaction conformation between T-cell receptors and epitopes with deep learning](https://www.nature.com/articles/s42256-023-00634-4) (2023 NMI)**
+- [ ] **[Benchmarking solutions to the T-cell receptor epitope prediction problem: IMMREP22 workshop report](https://www.sciencedirect.com/science/article/pii/S2667119023000046) (2023 ImmunoInformatics)**
+- [ ] **[Can we predict T cell specificity with digital biology and machine learning?](https://www.nature.com/articles/s41577-023-00835-3) (2023 Nature reviews)**
 
 Potential data resources:
 - [ ] **[Facile repurposing of peptide–MHC-restricted antibodies for cancer immunotherapy](https://www.nature.com/articles/s41587-022-01567-w) (2023 NBT)**
@@ -116,9 +115,11 @@ Fine-tune AlphaFold2 (Philip Bradley & David Baker):
 - [ ] **[Structure-based prediction of T cell receptor: peptide-MHC interactions](https://elifesciences.org/articles/82813) (2023)**
 
 
-## 2. Protein (Pre-trained) Language Models
+## 2. Protein Language Models
 
-Amino acid sequence: protein language
+[The Next Frontier For Large Language Models Is Biology](https://www.forbes.com/sites/robtoews/2023/07/16/the-next-frontier-for-large-language-models-is-biology/?sh=5817f11b6f05)
+- Posted on 2023.07.16.
+- This article focuses on the impact of LLM in the protein field in recent years, and also paints a big picture of the future.
 
 ### 2.1. Surveys
 - [ ] **[Learning functional properties of proteins with language models](https://www.nature.com/articles/s42256-022-00457-9) (2022 NMI)**
@@ -145,6 +146,8 @@ GPT-based:
 GLM-based:
 - [ ] **[xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein](https://www.biorxiv.org/content/10.1101/2023.07.05.547496v1) (2023 | Baidu BioMap)**
 
+Sequence-Structure co-modeling：
+- [x] **[SaProt: Protein Language Modeling with Structure-aware Vocabulary](https://www.biorxiv.org/content/10.1101/2023.10.01.560349v2) (2023 bioRxiv)**
 
 ### 2.3. Applications
 - [ ] **[Efficient evolution of human antibodies from general protein language models](https://www.nature.com/articles/s41587-023-01763-2) (2023 NBT)**
@@ -162,14 +165,14 @@ GLM-based:
 - [ ] **[[AlphaFold2] Highly accurate protein structure prediction with AlphaFold](https://www.nature.com/articles/s41586-021-03819-2) (2021 Nature)**
 - [ ] **[[ESMFold] Evolutionary-scale prediction of atomic-level protein structure with a language model](https://www.science.org/doi/10.1126/science.ade2574) (2023 Science)**
 - [ ] **[De novo design of protein structure and function with RFdiffusion](https://www.nature.com/articles/s41586-023-06415-8) (2023 Nature)**
-- [x] **[ColabFold: making protein folding accessible to all](https://www.nature.com/articles/s41592-022-01488-1) (2022 Nature)**
+- [ ] **[ColabFold: making protein folding accessible to all](https://www.nature.com/articles/s41592-022-01488-1) (2022 Nature)**
 
 
 ## 4. Sequence Design
 
 - [ ] **[Robust deep learning–based protein sequence design using ProteinMPNN](https://www.science.org/doi/10.1126/science.add2187)**
 - [ ] **[[LM-Design] Structure-informed Language Models Are Protein Designers](http://biorxiv.org/lookup/doi/10.1101/2023.02.03.526917)  (2023 ICML)**
-- [x] **[[EvoDiff] Protein generation with evolutionary diffusion: sequence is all you need](http://biorxiv.org/lookup/doi/10.1101/2023.09.11.556673) (2023 Bioaxiv)**
+- [ ] **[[EvoDiff] Protein generation with evolutionary diffusion: sequence is all you need](http://biorxiv.org/lookup/doi/10.1101/2023.09.11.556673) (2023 Bioaxiv)**
 
 
 Related Topic Reading: [New Paradigm in Protein Design](https://mp.weixin.qq.com/s/KfAdtdo9Rs4PP-DHlCO7aA)
