@@ -58,7 +58,7 @@ This curated reading list focuses on the intersection of AI and biology, offerin
 |   |Title|Pub.&Year|Notes|
 |---|-----|---------|-----|
 |Geneformer|[Transfer learning enables predictions in network biology](https://www.nature.com/articles/s41586-023-06139-9)|Nature '2023||
-|CancerGPT|[CancerGPT: Few-shot Drug Pair Synergy Prediction using Large Pre-trained Language Models]((https://www.nature.com/articles/s41746-024-01024-9))|npj Digital Medicine '2024||
+|CancerGPT|[CancerGPT: Few-shot Drug Pair Synergy Prediction using Large Pre-trained Language Models](https://www.nature.com/articles/s41746-024-01024-9)|npj Digital Medicine '2024||
 ||||
 
 

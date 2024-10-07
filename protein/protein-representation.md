@@ -27,7 +27,9 @@
 |xTrimoPGLM|[xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein](https://www.biorxiv.org/content/10.1101/2023.07.05.547496v1)|2023|
 |SaProt|[SaProt: Protein Language Modeling with Structure-aware Vocabulary](https://www.biorxiv.org/content/10.1101/2023.10.01.560349v2)|ICLR '2024|[code](https://github.com/westlake-repl/SaProt)|
 |[Benchmark]|[Feature Reuse and Scaling: Understanding Transfer Learning with Protein Language Models](https://proceedings.mlr.press/v235/li24a.html)|ICML '2024|
-||||
+||[ESM All-Atom: Multi-scale Protein Language Model for Unified Molecular Modeling](http://arxiv.org/abs/2403.12995)|ICML '2024|
+|AMPLIFY|[Protein Language Models: Is Scaling Necessary?](https://www.biorxiv.org/content/10.1101/2024.09.23.614603v1#:~:text=Protein%20language%20models%20(pLMs)%20pre-trained%20on%20these)|BioRxiv '2024|
+|Ginkgo-AA|[A Protein Sequence LLM Trained on 2 Billion Proprietary Sequences](https://www.ginkgobioworks.com/2024/09/17/aa-0-protein-llm-technical-review/#:~:text=We%20compare%20the%20performance%20of%20AA-0%20to%20ESM-2%20on%20popular)|blog|650M|
 
 👆 [Back to Top](#protein-representation)
 

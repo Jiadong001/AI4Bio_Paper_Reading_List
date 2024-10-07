@@ -14,6 +14,6 @@
 |ProteinMPNN|[Robust deep learning–based protein sequence design using ProteinMPNN](https://www.science.org/doi/10.1126/science.add2187)|Science '2022|
 |LM-Design|[Structure-informed Language Models Are Protein Designers](http://biorxiv.org/lookup/doi/10.1101/2023.02.03.526917)|ICML '2023|
 |EvoDiff|[Protein generation with evolutionary diffusion: sequence is all you need](http://biorxiv.org/lookup/doi/10.1101/2023.09.11.556673)|NIPS '2023|
-
+||[Reinforcement Learning for Sequence Design Leveraging Protein Language Models](http://arxiv.org/abs/2407.03154)|NIPS '2024|
 
 👆 [Back to Top](#protein-design)

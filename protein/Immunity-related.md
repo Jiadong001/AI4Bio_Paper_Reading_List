@@ -9,6 +9,11 @@
 
 📘 Related resources on Github: [TCR-BCR-seq-analysis](https://github.com/crazyhottommy/TCR-BCR-seq-analysis), [awesome-vdj](https://github.com/slowkow/awesome-vdj)
 
+
+|   |Title|Pub.&Year|Notes|
+|---|-----|---------|-----|
+|[Survey]|[Development and use of machine learning algorithms in vaccine target selection](https://www.nature.com/articles/s41541-023-00795-8)|npj vaccines '2024|T cell & B cell|
+
 ## TCR-HLA-peptide Binding Prediction
 
 Intro: **T-cell receptor (TCR), peptide, and human leukocyte antigen (HLA) interactions** play a crucial role in the adaptive immune response, orchestrating the recognition and targeting of foreign substances, such as pathogens or cancer cells. 
@@ -49,12 +54,14 @@ Intro: **T-cell receptor (TCR), peptide, and human leukocyte antigen (HLA) inter
 |TCRAI-ICON|[A framework for highly multiplexed dextramer mapping and prediction of T cell receptor sequences to antigen specificity](https://www.science.org/doi/10.1126/sciadv.abf5835)|Science Advanced '2021|
 |pMTnet|[Deep learning-based prediction of the T cell receptor–antigen binding specificity](https://www.nature.com/articles/s42256-021-00383-2)|NMI '2021|
 |PanPep|[Pan-Peptide Meta Learning for T-cell receptor–antigen binding recognition](https://www.nature.com/articles/s42256-023-00619-3)|NMI '2023|👍|
-|TEIM|[[TEIM] s with deep learning](https://www.nature.com/articles/s42256-023-00634-4)|NMI '2023|
+|TEIM|[Characterizing the interaction conformation between T-cell receptors and epitopes with deep learning](https://www.nature.com/articles/s42256-023-00634-4)|NMI '2023|
 |[Benchmark]|[Benchmarking solutions to the T-cell receptor epitope prediction problem: IMMREP22 workshop report](https://www.sciencedirect.com/science/article/pii/S2667119023000046)|ImmunoInformatics '2023|
 |[survey]|[Can we predict T cell specificity with digital biology and machine learning?](https://www.nature.com/articles/s41577-023-00835-3)|Nature reviews '2023|
 |TCRdock|[Structure-based prediction of T cell receptor: peptide-MHC interactions](https://elifesciences.org/articles/82813)|Elife '2023|
+||[TCRmodel2: high-resolution modeling of T cell receptor recognition using deep learning](https://academic.oup.com/nar/article/51/W1/W569/7151345)|Nucleic Acids Research '2023|
 |pMTnet_Omni|||
-||||
+|[benchmark]|[Lessons learned from the IMMREP23 TCR-epitope prediction challenge](https://www.sciencedirect.com/science/article/pii/S2667119024000156)|ImmunoInformatics '2024|Kaggle|
+|PISTE|[Sliding-attention transformer neural architecture for predicting T cell receptor–antigen–human leucocyte antigen binding](https://www.nature.com/articles/s42256-024-00901-y)|NMI '2024|
 
 👆 [Back to Top](#immunity-related)
 
@@ -65,5 +72,6 @@ Intro: **T-cell receptor (TCR), peptide, and human leukocyte antigen (HLA) inter
 |---|-----|---------|-----|
 ||[Efficient evolution of human antibodies from general protein language models](https://www.nature.com/articles/s41587-023-01763-2)|NBT '2023|
 |PALM-H3|[De novo generation of SARS-CoV-2 antibody CDRH3 with a pre-trained generative large language model](https://www.nature.com/articles/s41467-024-50903-y)|NC '2024|
+|[benchmerk]|[What has AlphaFold3 learned about antibody and nanobody docking, and what remains unsolved?](https://www.biorxiv.org/content/10.1101/2024.09.21.614257v1)|BioRxiv '2024|
 
 👆 [Back to Top](#immunity-related)
