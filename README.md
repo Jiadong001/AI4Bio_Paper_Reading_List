@@ -21,6 +21,7 @@ This curated reading list focuses on the intersection of AI and biology, offerin
 ## Protein
 
 - A recent comprehensive survey: [Advances of Deep Learning in Protein Science: A Comprehensive Survey](https://arxiv.org/pdf/2403.05314) (Science China Information Sciences' 2024)
+- A recent comprehensive "Protein desigen & Structure prediction" benchmark: [ProteinBench: A Holistic Evaluation of Protein Foundation Models](https://arxiv.org/pdf/2409.06744v1) (Arxiv' 2024)
 
 
 |Topic|What's it about?|
@@ -29,7 +30,7 @@ This curated reading list focuses on the intersection of AI and biology, offerin
 |[Protein representation](protein/protein-representation.md)|Protein Language model, structure representation, ...|
 |[Protein meets LLM](protein/protein-meets-llm.md)|After the emergence of **ChatGPT**|
 |[Protein design](protein/protein-design.md)|Design protein sequence|
-|[Structure Prediction](protein/structure-prediction.md)|Sequence to Structure, **AlphaFold**|
+|[Structure prediction](protein/structure-prediction.md)|Sequence to structure, **AlphaFold** and its applications|
 |[Protein interaction](protein/protein-interaction.md)|Protein-protein/ligand interaction, Docking|
 |[To be updated]||
 
@@ -39,7 +40,7 @@ This curated reading list focuses on the intersection of AI and biology, offerin
 ## Foundation models
 
 - Must-read article: [The Next Frontier For Large Language Models Is Biology](https://www.forbes.com/sites/robtoews/2023/07/16/the-next-frontier-for-large-language-models-is-biology/?sh=5817f11b6f05) (2023)
-- For protein foundation models, see [Protein](#protein) section: [Protein representation](protein/protein-representation.md) and [Protein meets LLM](protein/protein-meets-llm.md)
+- For protein foundation models, see [Protein](#protein) section: [Protein representation](protein/protein-representation.md), [Protein meets LLM](protein/protein-meets-llm.md), ...
 
 
 |   |Title|Pub.&Year|Notes|
